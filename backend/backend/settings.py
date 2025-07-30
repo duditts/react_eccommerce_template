@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-hw0f=$ftpw9(*&r)@z(-+)cuh^)8*##9#z7mej)yun_nkow-_@
 DEBUG = False
 
 
-ALLOWED_HOSTS = ["*"]  # later set to your domain or Render URL
+ALLOWED_HOSTS = ["https://react-eccommerce-template.onrender.com/"]  # later set to your domain or Render URL
 CSRF_TRUSTED_ORIGINS = ["https://vercel.com/duditts-projects/react-eccommerce-template/settings/build-and-deployment"]
 CORS_ALLOW_ALL_ORIGINS = True  # or use proper domain whitelist
 # Application definition
